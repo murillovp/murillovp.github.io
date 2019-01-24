@@ -1,20 +1,40 @@
-.pb-20 {
-	padding-bottom: 30px;
+/*Text styles*/
+
+h1 {
+	font-size: 54px;
+	font-weight: 500;
+	color: #84aabd;
+}
+
+
+p {
+	color: #7a8e98;
+}
+
+.title {
+	padding-top: 120px;
+	padding-bottom: 20px;
 }
 
 .bg-color {
-	background-color: #FFF;
-}
-
-.h1 {
-	font-size: 84px;
-	font-weight: 200;
-	padding-bottom: 20px;
-	color: #878e94;
+	background-color: #F6F7FA;
 }
 
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 1024px;
   padding: 40px;
 }
+
+
+.links {
+	color: #7a8e98;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.links:hover {
+	color: #53636b;
+	text-decoration: none;
+}
+
