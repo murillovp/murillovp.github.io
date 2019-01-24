@@ -1,0 +1,20 @@
+.pb-20 {
+	padding-bottom: 30px;
+}
+
+.bg-color {
+	background-color: #FFF;
+}
+
+.h1 {
+	font-size: 84px;
+	font-weight: 200;
+	padding-bottom: 20px;
+	color: #878e94;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 40px;
+}
