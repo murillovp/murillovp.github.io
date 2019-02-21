@@ -3,12 +3,29 @@
 h1 {
 	font-size: 54px;
 	font-weight: 500;
-	color: #84aabd;
+	color: #979fa3;
 }
 
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: #979fa3;
+}
+
+h6 {
+	font-size: 12px;
+	font-weight: 400;
+	color: #878d91;
+}
+
+.h6-light {
+	font-size: 12px;
+	font-weight: 400;
+	color: #d4d7d8;
+}
 
 p {
-	color: #7a8e98;
+	color: #878d91;
 }
 
 .title {
@@ -26,15 +43,43 @@ p {
   padding: 40px;
 }
 
+.footer {
+	margin-top: 50vh;
+	margin-bottom: 20px;
+}
 
 .links {
-	color: #7a8e98;
+	color: #878d91;
 	text-decoration: none;
 	font-weight: 700;
 }
+
 
 .links:hover {
 	color: #53636b;
 	text-decoration: none;
 }
 
+.links-light {
+	color: #d4d7d8;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.links-light:hover {
+	color: #53636b;
+	text-decoration: none;
+}
+
+// Batcave styles
+
+.h1-bat {
+	font-size: 54px;
+	font-weight: 500;
+	color: #e2e2e2;
+}
+
+
+.bg-color-bat {
+	background-color: #444547;
+}
