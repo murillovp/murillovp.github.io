@@ -10,12 +10,24 @@
 }
 
 
+.batlogo-mini {
+	width: 20px;
+	height: auto;
+}
+
+.batlogo-resize {
+	width: 100px;
+	height: auto;
+	padding-top: 40px;
+}
+
 /*Text styles*/
 
 h1 {
 	font-size: 54px;
 	font-weight: 500;
 	color: #979fa3;
+	line-height: 1.1;
 }
 
 h3 {
@@ -57,7 +69,6 @@ p {
 
 .footer {
 	margin-top: 50vh;
-	margin-bottom: 20px;
 }
 
 .links {
@@ -81,5 +92,11 @@ p {
 .links-light:hover {
 	color: #53636b;
 	text-decoration: none;
+}
+
+.img-resize {
+	width: 250px;
+	height: auto;
+	transform: scaleX(-1);
 }
 
