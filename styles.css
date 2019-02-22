@@ -1,3 +1,15 @@
+
+/*Batcave styles*/
+
+.opacity {
+	opacity: 0.3;
+}
+
+.bg-color-bat {
+	background-color: #444547;
+}
+
+
 /*Text styles*/
 
 h1 {
@@ -71,15 +83,3 @@ p {
 	text-decoration: none;
 }
 
-// Batcave styles
-
-.h1-bat {
-	font-size: 54px;
-	font-weight: 500;
-	color: #e2e2e2;
-}
-
-
-.bg-color-bat {
-	background-color: #444547;
-}
