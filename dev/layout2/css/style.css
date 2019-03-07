@@ -1,0 +1,165 @@
+/* Global settings */
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	color: var(--dark-grey);
+	line-height: 1.7;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.03em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--dark-grey);
+	line-height: 1;
+	font-weight: 900;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;	
+}
+
+h1 {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 52px;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+/* grid 960 */
+
+.row {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 10px 20px;
+}
+
+.column {
+	padding: 0px 10px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.col1 {
+	width: 60px;
+}
+
+.col2 {
+	width: 140px;
+}
+
+.col3 {
+	width: 220px;
+}
+
+.col4 {
+	width: 300px;
+}
+
+.col5 {
+	width: 380px;
+}
+
+.col6 {
+	width: 460px;
+}
+
+.col7 {
+	width: 620px;
+}
+
+.col8 {
+	width: 620px;
+}
+
+.col9 {
+	width: 700px;
+}
+
+.col10 {
+	width: 780px;
+}
+
+.col11 {
+	width: 860px;
+}
+
+.col12 {
+	width: 940px;
+}
+/* Fim do grid */
+
+header a {
+	color: var(--dark-grey);
+	text-decoration: none;
+	font-weight: 700;
+}
+
+header a:hover, header a:active {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+.navmenu-main {
+	text-align: right;
+}
+
+.navmenu-i {
+	margin-left: 15px;
+}
+
+.header {
+ padding: 40px 0 20px 0;
+}
+
+.intro {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.ghostbtn {
+	color: var(--dark-grey);
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+.ghostbtn:hover, .ghostbutton:active {
+	color: var(--primary-color);
+}
+
+/* Estilos globais */
+
+.separator {
+	background-color: #cccccc;
+	width: 100%;
+	height: 1px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.img-fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
