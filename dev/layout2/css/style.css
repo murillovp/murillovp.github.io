@@ -1,23 +1,30 @@
 /* Global settings */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p {
 	color: var(--dark-grey);
-	line-height: 1.7;
+	line-height: 1.8em;
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: 0.03em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: var(--dark-grey);
 	line-height: 1;
-	font-weight: 900;
+	font-weight: 600;
     margin-block-start: 0.4em;
-    margin-block-end: 0.4em;	
+    margin-block-end: 0.4em;
+    line-height: 1.2em;
 }
 
 h1 {
@@ -26,88 +33,94 @@ h1 {
 
 h2 {
 	font-size: 52px;
-	line-height: 1.2;
 }
 
 h3 {
-	font-size: 26px;
+	font-size: 32px;
 }
 
 h4 {
-	font-size: 22px;
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 14px;
 }
 
 /* grid 960 */
 
 .row {
-	width: 960px;
+	width: 1180px;
 	margin: 0 auto;
 	overflow: auto;
-	padding: 10px 20px;
+	padding: 10 20px;
 }
 
-.column {
-	padding: 0px 10px;
-	float: left;
+.row::after {
+	content: "";
+ 	clear: both;
+ 	display: table;
 }
 
-.clear {
-	clear: both;
+[class^="col-"], [class*=" col-"] {
+ 	float: left;
+ 	padding: 10px 20px;
 }
 
-.col1 {
-	width: 60px;
+.col-1 {
+	width: 8,33%;
 }
 
-.col2 {
-	width: 140px;
+.col-2 {
+	width: 16,66%;
 }
 
-.col3 {
-	width: 220px;
+.col-3 {
+	width: 25%;
 }
 
-.col4 {
-	width: 300px;
+.col-4 {
+	width: 33,33%;
 }
 
-.col5 {
-	width: 380px;
+.col-5 {
+	width: 41,66%;
 }
 
-.col6 {
-	width: 460px;
+.col-6 {
+	width: 50%;
 }
 
-.col7 {
-	width: 620px;
+.col-7 {
+	width: 58,33%;
 }
 
-.col8 {
-	width: 620px;
+.col-8 {
+	width: 66,66%;
 }
 
-.col9 {
-	width: 700px;
+.col-9 {
+	width: 75%;
 }
 
-.col10 {
-	width: 780px;
+.col-10 {
+	width: 83,33%;
 }
 
-.col11 {
-	width: 860px;
+.col-11 {
+	width: 91,66%;
 }
 
-.col12 {
-	width: 940px;
+.col-12 {
+	width: 100%;
 }
 /* Fim do grid */
 
 header a {
 	color: var(--dark-grey);
 	text-decoration: none;
-	font-weight: 700;
+	letter-spacing: 0.04em;
+	font-weight: 500;
 }
 
 header a:hover, header a:active {
@@ -117,6 +130,8 @@ header a:hover, header a:active {
 
 .navmenu-main {
 	text-align: right;
+	float: right;
+	padding: 20px 0px;
 }
 
 .navmenu-i {
@@ -145,12 +160,12 @@ header a:hover, header a:active {
 	color: var(--primary-color);
 }
 
-/* Estilos globais */
 
 .separator {
 	background-color: #cccccc;
 	width: 100%;
 	height: 1px;
+	margin: 60px 0px;
 }
 
 .text-right {
@@ -162,4 +177,18 @@ header a:hover, header a:active {
     background-size: cover;
     background-position: center;
     min-height: 500px;
+}
+
+.section-desc {
+	margin-top: 40px;
+}
+
+footer {
+	color: var(--light-grey);
+	font-size: 14px;
+}
+
+.bg-dark {
+	background: var(--dark-grey);
+	min-width: 100vh;
 }
