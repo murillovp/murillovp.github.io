@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Tipography */
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -45,6 +47,14 @@ h4 {
 
 h5 {
 	font-size: 14px;
+}
+
+.row.bg-dark h3 {
+	color: var(--light-grey);
+}
+
+.row.bg-dark p {
+	color: var(--white-grey);
 }
 
 /* grid 960 */
@@ -190,5 +200,18 @@ footer {
 
 .bg-dark {
 	background: var(--dark-grey);
-	min-width: 100vh;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.topics .col-4 {
+	width: 295px;
+	text-align: center;
 }
