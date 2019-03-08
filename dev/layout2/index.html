@@ -6,8 +6,10 @@
 		<title>Murillo Perecinotto | UX Designer</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/variables.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
 	</head>
 	
 	<body>
@@ -15,12 +17,12 @@
 			<div class="row">
 				<header>
 					<div class="col-4">
-						<a href="#"><h1>Murillo Perecinotto</h1></a>
+						<h1>Murillo Perecinotto</h1></a>
 					</div>
 					<div class="col-8 navmenu-main">
-						<a class="navmenu-i" href="#">About me</a>
-						<a class="navmenu-i" href="#">My skills</a>
-						<a class="navmenu-i" href="#">Contact</a>
+						<a class="navmenu-i" href="#about">About me</a>
+						<a class="navmenu-i" href="#skills">My skills</a>
+						<a class="navmenu-i" href="#contact">Contact</a>
 					</div>
 				</header>
 			</div>
@@ -30,18 +32,26 @@
 			<div class="col-12">
 				<section class="intro">
 					<h2>Hello, i'm Murillo Perecinotto,<br>a designer and problem solver.</h2>
-					<a class="ghostbtn" href="">Get to know me <span style="color: #a5155d; margin-left: 8px;">&#10095;</span></a>
+					<a class="ghostbtn" href="#about">Get to know me <span style="color: var(--primary-color); margin-left: 8px;">&#10095;</span></a>
 				</section>
 			</div>
 		</div>
 
-		<div style="background-image: url('img/img-placeholder.jpeg');" class="img-fill">
-			<!-- This is a div with an image and blank content, it works magically with `background-size: cover;` in styles.css -->
+		<!-- <div style="background-image: url('img/img-placeholder.jpeg');" class="img-fill">
+			<div>
+				<img src="img/avatar-250px.png" class="img-avatar" />
+			</div>
+		</div> -->
+
+		<div class="row bg-dark full-width">
+			<div>
+				<img src="img/avatar-250px.png" class="img-avatar" />
+			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12 section-desc">
-				<h3>I love to dive into the users' perspective to understand their problems and design great UI and UX solutions, suited to their needs.</h3>
+				<h3 id="about">I love to dive into the users' perspective to understand their problems and design great UI and UX solutions, suited to their needs.</h3>
 			</div>
 		</div>
 
@@ -59,7 +69,7 @@
 		<div class="row bg-dark full-width">
 			<div class="row">
 				<div class="col-12">
-					<h3 class="intro">My skills</h3>
+					<h3 id="skills"><span style="color: var(--primary-color); margin-right: 15px;"> &#9813;</span>My skills</h3>
 				</div>
 				<div class="topics">
 					<div class="col-4">
@@ -84,22 +94,22 @@
 
 		<div class="row">
 			<div class="col-12 section-desc">
-				<h3>Hit me up, lets hang.</h3>
+				<h3 id="contact">Hit me up, lets hang.</h3>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-3">
-				<img src="img/...jpg" class="social-icon" /><span>LinkedIn</span>
+				<a target="blank" href="https://www.linkedin.com/in/murillovp/"><i class="fab fa-linkedin"></i><span class="social-media-text">LinkedIn</span></a>
 			</div>
 			<div class="col-3">
-				<img src="img/...jpg" class="social-icon" /><span>Dribble</span>
+				<a target="blank" href="https://dribbble.com/murillovp"><i class="fab fa-dribbble"></i><span class="social-media-text">Dribbble</span></a>
 			</div>
 			<div class="col-3">
-				<img src="img/...jpg" class="social-icon" /><span>Behance</span>
+				<a target="blank" href="https://www.behance.net/murillovp"><i class="fab fa-behance"></i><span class="social-media-text">Behance</span></a>
 			</div>
 			<div class="col-3">
-				<img src="img/...jpg" class="social-icon" /><span>E-mail</span>
+				<a href="mailto:murillovp90@gmail.com"><i class="fas fa-at"></i><span class="social-media-text">E-mail</span></a>
 			</div>
 		</div>
 
@@ -112,10 +122,10 @@
 		<div class="row">
 			<footer>
 				<div class="col-9">
-					<span>&copy 2019 | Handmade with HTML, CSS and tears, hosted with <span style="color: #a5155d; opacity: 0.5;">&hearts;</span> GitHub Pages.</span>
+					<span>&copy 2019 | Handmade with HTML, CSS and tears, hosted with <span style="color: #a5155d; opacity: 0.5;">&hearts;</span><strong> GitHub Pages</strong>.</span>
 				</div>
-				<div class="col-3 text-right">
-					<span>Link to the batcave.</span>
+				<div class="col-3 text-right" style="opacity: 0.2;">
+					<span>Go to <a href="links.html">Batcave</a></span>
 				</div>
 			</footer>
 		</div>
