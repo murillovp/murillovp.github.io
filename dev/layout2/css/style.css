@@ -57,6 +57,14 @@ h5 {
 	color: var(--white-grey);
 }
 
+.row.bg-dark h4 {
+	color: var(--white-grey);
+}
+
+.row.bg-dark {
+	padding: 40px 0;
+}
+
 /* grid 960 */
 
 .row {
@@ -198,8 +206,14 @@ footer {
 	font-size: 14px;
 }
 
+.social-icon {
+	display: inline-block;
+	margin-right: 10px;
+}
+
 .bg-dark {
 	background: var(--dark-grey);
+	margin: 60px 0;
 }
 
 .full-width {
