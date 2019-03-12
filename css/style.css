@@ -11,17 +11,13 @@ p {
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: 0.03em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: var(--dark-grey);
-	line-height: 1;
 	font-weight: 600;
-    margin-block-start: 0.4em;
-    margin-block-end: 0.4em;
-    line-height: 1.2em;
+    line-height: 1.15em;
+    margin-bottom: 1em;
 }
 
 h1 {
@@ -30,6 +26,11 @@ h1 {
 
 h2 {
 	font-size: 52px;
+	margin-bottom: 0.5em;
+}
+
+.h2-primary {
+	color: var(--primary-color);
 }
 
 h3 {
@@ -44,6 +45,10 @@ h5 {
 	font-size: 14px;
 }
 
+.footer span {
+	font-size: 12px;
+}
+
 a {
 	color: var(--dark-grey);
 	text-decoration: none;
@@ -54,12 +59,6 @@ a {
 a:hover, a:active {
 	color: var(--primary-color);
 	text-decoration: none;
-}
-
-.navmenu-main {
-	text-align: right;
-	float: right;
-	padding: 20px 0px;
 }
 
 .ghostbtn {
@@ -94,6 +93,18 @@ a:hover, a:active {
 	background: var(--dark-grey);
 }
 
+.bg-dark h3 {
+	color: var(--light-grey);
+}
+
+.bg-dark h4 {
+	color: var(--primary-color);
+}
+
+.bg-dark p {
+	color: var(--white-grey);
+}
+
 .full-width {
   width: 100vw;
   position: relative;
@@ -102,6 +113,8 @@ a:hover, a:active {
   margin-left: -50vw;
   margin-right: -50vw;
 }
+
+/* Social icons */
 
 .fa-linkedin {
 	color: #0077B2;
@@ -117,15 +130,4 @@ a:hover, a:active {
 
 .fa-at {
 	color: var(--primary-color);
-}
-
-.topics .col-4 h4 {
-	color: var(--primary-color);
-}
-
-.img-avatar {
-	margin: 30px 0;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
 }
